@@ -31,14 +31,29 @@ O agente requer que você configure a chave de acesso à API do Google Gemini.
 
 ### Variáveis de Ambiente
 
-Crie um arquivo `.env` na raiz do projeto ou exporte as seguintes variáveis no seu terminal:
+Crie um arquivo `.env` na raiz do projeto com as seguintes variaveis:
 
 ```bash
 # Define o uso da API padrão (não Vertex AI)
-export GOOGLE_GENAI_USE_VERTEXAI=FALSE
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
 # Substitua pela sua chave de API
-export GOOGLE_API_KEY="SUA_CHAVE_DE_API_AQUI"
+GOOGLE_API_KEY="SUA_CHAVE_DE_API_AQUI"
 ```
+
+## Como Obter uma Chave de API do Google Gemini
+
+1. **Acesse o Google AI Studio:**
+  Abra seu navegador e vá para o Google AI Studio (anteriormente conhecido como Google AI for Developers):
+   
+ https://aistudio.google.com/app/api-keys 
+
+2. **Faça Login:**
+  Se você ainda não estiver logado, clique em "Sign In" (Fazer Login) e use sua conta do Google.
+
+3. **Crie a Chave de API:**
+  *  Após fazer login, você será direcionado para a página de gerenciamento de chaves de API.
+  *  Clique no botão **"+ Create API key"** (Criar chave de API).
+  *  Uma nova chave de API será gerada instantaneamente e exibida na tela.
 
 ## Execução do Agente
 
