@@ -62,7 +62,6 @@ Para interagir com o agente, você pode utilizar a interface web integrada do AD
 1.  **Execute a interface web do ADK:**
 
     ```bash
-    cd fipe_agent
     adk web 
     ```
 
